@@ -1,0 +1,311 @@
+.banner{
+    display:flex;
+    height:300px;
+    width:100%;
+    background-color:black;
+    justify-content:center;
+    box-shadow: 10px 0px 10px 0px black;
+}
+
+.banner .card-description{
+    color:white;
+    width:100%;
+    height:100%;
+    padding:5px;
+    padding:10px;
+    text-align:left;
+    margin-left: 20px;
+    justify-content:center;
+    overflow: hidden;
+}
+
+.card-description p{
+    margin-left:10px;
+    font-size: 14px;
+    
+}
+
+.card-description h3{
+    margin-left:5px;
+}
+
+.card-description h2{
+    margin-top:10px;
+}
+
+.banner ul{
+    list-style:none;
+    text-decoration: none;
+}
+
+.banner .card-description img{
+    display: inline-block;
+    width:250px;
+    height:250px;
+    border-radius:100%;
+}
+
+#progress-developer {
+    display: inline-block;
+    background: #333;
+    border-radius: 10px;
+    height: 50px;
+    width: 90%;
+    padding: 3px;
+}
+
+#progress-developer:after {
+    content: '';
+    display: block;
+    background: rgb(2, 114, 35);
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#progress-structure{
+    display: inline-block;
+    background: #333;
+    border-radius: 10px;
+    height: 50px;
+    width: 90%;
+    padding: 3px;
+}
+
+#progress-structure:after {
+    content: '';
+    display: block;
+    background: rgb(2, 114, 35);
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#progress-project{
+    display: inline-block;
+    background: #333;
+    border-radius: 10px;
+    height: 50px;
+    width: 90%;
+    padding: 3px;
+}
+
+#progress-project:after {
+    content: '';
+    display: block;
+    background: rgb(2, 114, 35);
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.about-me{
+    width: 100%;
+    display:inline-block;
+    background-color:#2b4d72;
+}
+
+
+.about-me h1{
+    text-align: center;
+    color:#ffffff;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 2px 2px black;
+}
+
+.section-description {
+    display:flex;
+    width:100%;
+    height:100%;
+    padding:25px;
+    justify-content: center;
+}
+
+.section-description .card{
+    display:flex;
+    margin-left: 30px;
+    width:500px;
+    background:#1c2d3f;
+    box-shadow: 2px 2px 2px black;
+    color:#ffffff;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.card img{
+    margin: 30px;
+    width:90px;
+    height: 90px;
+    border-radius:100%;
+}
+
+.card .logo{
+   padding:15px;
+}
+
+.section-description > p{
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.contacts{
+    width:100%;
+    padding-bottom: 30px;
+    background-color:#1c2d3f;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.contacts h1{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    color:white;
+    text-shadow: 2px 2px black;
+}
+
+.social-media{
+    display:flex;
+    width:100%;
+    justify-content: center;
+}
+
+
+.social-media img{
+    width:128px;
+    height:128px;
+    margin:30px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width:950px){
+
+  
+
+    .banner{
+        display:inline-block;
+        width:100%;
+        height:900px;
+    }
+
+    .banner .card-description{
+        width:100%;
+        height:300px;
+        margin-left: 0;
+        text-align:center;
+    }
+
+    .banner .card-description:nth-child(2){
+        width:100%;
+        height:200px;
+        text-align:center;
+    }
+
+    .banner .card-description img{
+        width:150px;
+        height:150px;
+    }
+
+    .card-description h1{
+        font-size: 30px;
+    }
+
+    .card-description h3{
+        font-size: 24px;
+    }
+
+    #progress-developer {
+        display: inline-block;
+        background: #333;
+        border-radius: 10px;
+        height: 50px;
+        width: 90%;
+        padding: 3px;
+    }
+    
+    #progress-developer:after {
+        content: '';
+        display: block;
+        background: rgb(2, 114, 35);
+        width: 60%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    
+    #progress-structure{
+        display: inline-block;
+        background: #333;
+        border-radius: 10px;
+        height: 50px;
+        width: 90%;
+        padding: 3px;
+    }
+    
+    #progress-structure:after {
+        content: '';
+        display: block;
+        background: rgb(2, 114, 35);
+        width: 20%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    
+    #progress-project{
+        display: inline-block;
+        background: #333;
+        border-radius: 10px;
+        height: 50px;
+        width: 90%;
+        padding: 3px;
+    }
+    
+    #progress-project:after {
+        content: '';
+        display: block;
+        background: rgb(2, 114, 35);
+        width: 20%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .section-description{
+        margin-top:10px;
+        display:inline-block;
+        width:100%;
+    }
+
+    .section-description .card p{
+        text-align:justify;
+    }
+    
+    .section-description .card{
+        display:inline-block;
+        margin-left:0;
+        width:100%;
+        text-align: center;
+    }
+
+    .social-media{
+        display:inline-block;
+    }
+
+    .social-media a{
+        margin-right: 10px;
+        display:inline-block;
+    }
+
+    .social-media img{
+        width:64px;
+        height:64px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .card img{
+        width:60px;
+        height: 60px;
+    }
+}
